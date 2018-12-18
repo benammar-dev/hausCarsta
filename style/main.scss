@@ -1,0 +1,19 @@
+$bodyBG: #356;
+$white: #fff;
+$fontColor: #eee;
+
+body {
+  background-color: $bodyBG;
+}
+
+h1{
+  color: $white;
+}
+
+.content {
+  //border: solid #999 1px;
+  height: 350px;
+  width: 500px;
+  color: $fontColor;
+  font-size: 18px;
+}
