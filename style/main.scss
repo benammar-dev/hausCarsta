@@ -1,13 +1,18 @@
-$bodyBG: #356;
-$white: #fff;
-$fontColor: #eee;
+$bodyBG: #eee;
+$blue: #356;
+$HeaderColor: #333;
+$fontColor: #555;
 
 body {
   background-color: $bodyBG;
 }
 
-h1{
-  color: $white;
+h3,h4,h5,p,a {
+  color: $fontColor;
+}
+
+h1,h2 {
+  color: $HeaderColor;
 }
 
 .content {
