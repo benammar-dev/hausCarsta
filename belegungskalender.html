@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/0d23544b65.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="App/css/main.css">
+   <title>Haus Carsta</title>
+</head>
+<body id="belegungskalender" name="top"> 
+    <div class="col-xs-12 content">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                <!-- hidden mobile menu  -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Haus Carsta</a>
+                </div>
+            
+                <!-- main menu  -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Startseite<span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown"> 
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wohnungen <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="wohnung1.html">Wohnung 1 EG RE</a></li>
+                                <li><a href="wohnung5.html">Wohnung 5 EG LI</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="wohnung2.html">Wohnung 2 OG RE</a></li>
+                                <li><a href="wohnung3.html">Wohnung 3 OG LI</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="wohnung4.html">Wohnung 4 Anbau</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="belegungskalender.html">Belegungskalender</a></li>
+                        <li><a href="preise.html">Preise</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+
+            <div class="col-xs-12 body-wrapper">
+                <div class="row">
+                    <div class="belegungskalender" id="belegungsübersicht">
+                        <div class="info" name="info">
+                            <p>
+                                <b><font color="#FF0000">Hinweis: </font><br/> Bei einem Buchungszeitraum unter 5 Nächten ist das Wäschepaket (Bettwäsche &amp; 
+                                Handtücher) NICHT inklusive !!!<br>
+                                &nbsp;</b>
+                            </p>
+                            
+                            <ul id="whg_nav">
+                                <li class="whg"><a href="#WHG1">Wohnung 1 EG RE</a></li>
+                                <li class="whg"><a href="#WHG2">Wohnung 2 OG RE</a></li>
+                                <li class="whg"><a href="#WHG3">Wohnung 3 OG LI</a></li>
+                                <li class="whg"><a href="#WHG4">Wohnung 4 Anbau</a></li>
+                                <li class="whg"><a href="#WHG5">Wohnung 5 EG LI</a></li>
+                            </ul>
+                        </div>
+                        <div class="btt hidden-xs"><a href="#top"><i class="fas fa-angle-up"></i></a></div>
+                        <div class="kalender">
+                            <p><a name="WHG1" id="belegungskalender1"></a></p>
+                            <!-- Der Belegzeitenkalender wird nur dann korrekt auf Ihrer Homepage angezeigt, wenn Sie den HTML-Code wie vorgegeben mit dem externen Link einbinden. -->
+                            <b id="kalender_iframe_child">Belegzeitenkalender für<a href="http://www.sylt-travel.de/ferienwohnungen/hoernum/2172/haus-carsta-1-wohnung-eg-rechts.php" style="color:#000000;" target="_blank" id="kalender_link"> Haus Carsta 1. Wohnung EG Rechts </a>  </b><br />
+                            <script language="javascript" type="text/javascript" src="http://www.sylt-travel.de/js/index.externInclude.js">
+                            </script>
+                            <script language="javascript" type="text/javascript">
+                                includeBelegzeitenkalender.width		=	80+"%";
+                                includeBelegzeitenkalender.height		=	679;
+                                includeBelegzeitenkalender.allg_http	=	'http://www.sylt-travel.de';
+                                includeBelegzeitenkalender.objekt_nr	=	2172;
+                                includeBelegzeitenkalender.lang		=	'de';
+                                includeBelegzeitenkalender.createIframe();
+                            </script>
+                            <p><a name="WHG2" id="belegungskalender2"></a></p>
+                            <!-- Der Belegzeitenkalender wird nur dann korrekt auf Ihrer Homepage angezeigt, wenn Sie den HTML-Code wie vorgegeben mit dem externen Link einbinden. -->
+                            <b id="kalender_iframe_child">Belegzeitenkalender für<a href="http://www.sylt-travel.de/ferienwohnungen/hoernum/2173/haus-carsta-2-wohnung-og-rechts.php" style="color:#000000;" target="_blank" id="kalender_link"> Haus Carsta 2. Wohnung OG Rechts </a>  </b><br />
+                            <script language="javascript" type="text/javascript" src="http://www.sylt-travel.de/js/index.externInclude.js">
+                            </script>
+                            <script language="javascript" type="text/javascript">
+                                includeBelegzeitenkalender.width		=	80+"%";
+                                includeBelegzeitenkalender.height		=	679;
+                                includeBelegzeitenkalender.allg_http	=	'http://www.sylt-travel.de';
+                                includeBelegzeitenkalender.objekt_nr	=	2173;
+                                includeBelegzeitenkalender.lang		=	'de';
+                                includeBelegzeitenkalender.createIframe();
+                            </script>
+                            <p><a name="WHG3" id="belegungskalender3"></a></p>
+                            <!-- Der Belegzeitenkalender wird nur dann korrekt auf Ihrer Homepage angezeigt, wenn Sie den HTML-Code wie vorgegeben mit dem externen Link einbinden. -->
+                            <b id="kalender_iframe_child">Belegzeitenkalender für<a href="http://www.sylt-travel.de/ferienwohnungen/hoernum/2174/haus-carsta-3-wohnung-og-links.php" style="color:#000000;" target="_blank" id="kalender_link"> Haus Carsta  3. Wohnung OG Links </a>  </b><br />
+                            <script language="javascript" type="text/javascript" src="http://www.sylt-travel.de/js/index.externInclude.js">
+                            </script>
+                            <script language="javascript" type="text/javascript">
+                                includeBelegzeitenkalender.width		=	80+"%";
+                                includeBelegzeitenkalender.height		=	679;
+                                includeBelegzeitenkalender.allg_http	=	'http://www.sylt-travel.de';
+                                includeBelegzeitenkalender.objekt_nr	=	2174;
+                                includeBelegzeitenkalender.lang		=	'de';
+                                includeBelegzeitenkalender.createIframe();
+                            </script>
+                            <p><a name="WHG4" id="belegungskalender4"></a></p>
+                            <!-- Der Belegzeitenkalender wird nur dann korrekt auf Ihrer Homepage angezeigt, wenn Sie den HTML-Code wie vorgegeben mit dem externen Link einbinden. -->
+                            <b id="kalender_iframe_child">Belegzeitenkalender für<a href="http://www.sylt-travel.de/ferienwohnungen/hoernum/2175/haus-carsta-4-wohnung-anbau.php" style="color:#000000;" target="_blank" id="kalender_link"> Haus Carsta  4. Wohnung Anbau </a>  </b><br />
+                            <script language="javascript" type="text/javascript" src="http://www.sylt-travel.de/js/index.externInclude.js">
+                            </script>
+                            <script language="javascript" type="text/javascript">
+                                includeBelegzeitenkalender.width		=	80+"%";
+                                includeBelegzeitenkalender.height		=	679;
+                                includeBelegzeitenkalender.allg_http	=	'http://www.sylt-travel.de';
+                                includeBelegzeitenkalender.objekt_nr	=	2175;
+                                includeBelegzeitenkalender.lang		=	'de';
+                                includeBelegzeitenkalender.createIframe();
+                            </script>
+                            <p><a name="WHG5" id="belegungskalender5"></a></p>
+                            <!-- Der Belegzeitenkalender wird nur dann korrekt auf Ihrer Homepage angezeigt, wenn Sie den HTML-Code wie vorgegeben mit dem externen Link einbinden. -->
+                            <b id="kalender_iframe_child">Belegzeitenkalender für<a href="http://www.sylt-travel.de/ferienwohnungen/hoernum/3593/haus-carsta-5-wohnung-eg-links.php" style="color:#000000;" target="_blank" id="kalender_link"> Haus Carsta 5. Wohnung EG Links </a>  </b><br />
+                            <script language="javascript" type="text/javascript" src="http://www.sylt-travel.de/js/index.externInclude.js">
+                            </script>
+                            <script language="javascript" type="text/javascript">
+                                includeBelegzeitenkalender.width		=	80+"%";
+                                includeBelegzeitenkalender.height		=	679;
+                                includeBelegzeitenkalender.allg_http	=	'http://www.sylt-travel.de';
+                                includeBelegzeitenkalender.objekt_nr	=	3593;
+                                includeBelegzeitenkalender.lang		=	'de';
+                                includeBelegzeitenkalender.createIframe();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 xs-btt visible-xs">
+        <a class="btn btn-default bttop" href="#top">zurück zum Anfang</a>
+    </div>
+    <div class="col-xs-12 footer">
+        <footer>
+            <div class="col-xs-12 col-sm-4 carsta-kontakt">
+            <h4>Haus Carsta</h4>
+            <ul>
+                <li><p>Kleine Straße 4</p></li>
+                <li><p>25997 Hörnum / Sylt</p></li><br />
+                <li><p>Tel: 04651-35846</p></li>
+                <li><p>Handy: 0175-9746915</p></li>
+                <li><p>eMail: hauscarsta@web.de</p></li>
+            </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+<!--   jquery    -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="App/js/main.js"></script>
+
+</html>
+    

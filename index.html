@@ -1,40 +1,152 @@
  <!DOCTYPE html>
  <html lang="de">
-   <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <!-- bootstrap -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
-     <link rel="stylesheet" type="text/css" href="App/css/main.css">
-     <title>Document</title>
-   </head>
-   <body>
-     
-     <div class="col-xs-12 content">
-      <h1>clean project</h1>
-        <div class="col-xs-12 body-wrapper">
-          <h1>start new project_1</h1>
-          <h3>Author: Yasin Ben Ammar</h3>
-          <h4>Date: 18.12.2018 - FL</h4>
-          <h5>welcome 2019</h5>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0d23544b65.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 
-          <div class="content-wrapper">
-            <aside id="mainmenu">
-              <ul id="menulist" class="nav nav-pills nav-stacked">
-                <li><a href="#">link1</a></li>
-                <li><a href="#">link2</a></li>
-                <li><a href="#">link3</a></li>
-                <li><a href="#">link4</a></li>
-              </ul>
-            </aside>
+    <link rel="stylesheet" type="text/css" href="App/css/main.css">
+    <title>Haus Carsta</title>
+  </head>
+  <body id="startseite">
+    <div class="col-xs-12 content">
+      <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- hidden mobile menu  -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Haus Carsta</a>
+              </div>
+
+              <!-- main menu  -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Startseite<span class="sr-only">(current)</span></a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wohnungen <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="wohnung1.html">Wohnung 1 EG RE</a></li>
+                      <li><a href="wohnung5.html">Wohnung 5 EG LI</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="wohnung2.html">Wohnung 2 OG RE</a></li>
+                      <li><a href="wohnung3.html">Wohnung 3 OG LI</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="wohnung4.html">Wohnung 4 Anbau</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="belegungskalender.html">Belegungskalender</a></li>
+                  <li><a href="preise.html">Preise</a></li>
+                  <li><a href="kontakt.html">Kontakt</a></li>
+                  <li><a href="impressum.html">Impressum</a></li>
+
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="col-xs-12 body-wrapper">
+          <div class="row">
+            <div class="opener col-xs-12">
+              <div class="col-xs-12 opener-content">
+                <div class="hidden-xs hidden-sm col-sm-5 col-md-4 hc-wetter">
+                    <iframe marginheight='0' marginwidth='0' scrolling='no' width='300' height='365' name='FC3' style='border:1px solid;border-color:transparent;' src='https://api.wetteronline.de/wetterwidget?gid=a2593&modeid=FC3&seourl=hoernum&locationname=Hörnum'></iframe>
+                </div>
+                <div class="col-col-12 col-sm-7 col-md-7 willkommen">
+                  <div class="row">
+                    <h1 class="opener-header">Herzlich Willkommen in der Ferienwohnung <br/> <span>Haus Carsta</span></h1>
+                    <a class="btn btn-default hc-btn" href="kontakt.html" >Jetzt Anfrage senden</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 content-wrapper">
+              <div class="row">
+                <div class="col-xs-12 hc-willkommen">
+                  <div class="row">
+
+                    <div class="hc-will-content">
+                      <h1>Willkommen bei Haus Carsta</h1><br/>
+                      <p>Das Haus Carsta ist im Jahre 1987 erbaut worden, es verfügt über 4 Appartements und einen Anbau in ruhiger und zentraler Lage in Hörnum.
+                      Von unserer Haustür bis zum Strand laufen Sie ca. 90 m und bis ins Zentrum sind es ca. 200 m.<br />
+                      Bei der Einrichtung unserer Ferienwohnungen haben wir großen Wert auf Komfort und eine gemütliche Atmosphäre gelegt. Die Wohnungen sind für zwei Personen geeignet. Ihren Wagen parken Sie direkt vor dem Haus und haben so keine langen Wege für den Transport von Gepäck oder Strandutensilien.
+                      Wenn Sie „ohne Umwege“ relaxen möchten, können Sie dafür unseren Strandkorb nutzen oder es sich auf den Sonnen- oder Grillterrassen bequem machen. <br /><br />
+                      Das „Haus Carsta“ lädt Sie förmlich zum Abschalten vom Alltag ein, die Ruhe und die langen Spaziergänge avm Hörnumer Sandstrand können Sie ausgiebig genießen. Das bedeutet Urlaub pur. Und der Hörnumer Hafen bietet Ihnen eine schöne Kulisse mit Blick auf die offene See.
+                      Die Appartements von „Haus Carsta“ sind für Sie ganzjährig buchbar. Wir würden uns freuen, wenn Sie sich für unsere Wohnungen entscheiden. <br /><br />
+                      Anfragen können Sie ab 16:00 Uhr unter der Telefonnummer: 04651-35846 oder 0175-9746915 oder per Email: hauscarsta@web.de.
+                      </p>
+                    </div>
+
+                    <div class="col-xs-12 info">
+                      <div class="col-xs-12 col-sm-6 col-md-5 eckdaten">
+                        <h3>Eckdaten</h3>
+                        <table>
+                          <tr>
+                            <td class="ed">Wohnungen:</td>
+                            <td class="at">5</td>
+                          </tr>
+
+                          <tr>
+                            <td class="ed">Zum Zentrum:</td>
+                            <td class="at">200m</td>
+                          </tr>
+
+                          <tr>
+                            <td class="ed">Zum Strand:</td>
+                            <td class="at">90m</td>
+                          </tr>
+
+                          <tr>
+                            <td class="ed">Garten:</td>
+                            <td class="at">300m2</td>
+                          </tr>
+                        </table>
+                      </div>
+
+                      <div class="col-xs-12 col-sm-6 col-md-7 eckdaten-haus">
+                        <img src="img/haus_aussen.jpg" >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--div class="anfahrtkarte">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1936.0650118115905!2d8.290516156456585!3d54.75566419049773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b4e40610dc517d%3A0x1fac8f1d63e884c9!2sKleine%20Str.%204%2C%2025997%20H%C3%B6rnum%20(Sylt)!5e0!3m2!1sde!2sde!4v1566919863373!5m2!1sde!2sde" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div-->
+              </div>
+            </div>
           </div>
-        </div>  
-     </div>
-   </body>
-   
-   <!--   Bootstrap script  -->
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>
-   <!--   jquery    -->
-   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 footer">
+        <footer>
+          <div class="col-xs-12 col-sm-4 carsta-kontakt">
+            <h4>Haus Carsta</h4>
+            <ul>
+              <li><p>Kleine Straße 4</p></li>
+              <li><p>25997 Hörnum / Sylt</p></li><br />
+              <li><p>Tel: 04651-35846</p></li>
+              <li><p>Handy: 0175-9746915</p></li>
+              <li><p>eMail: hauscarsta@web.de</p></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+  </body>
+
+
+  <!--   Bootstrap    -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="App/js/main.js"></script>
+
  </html>

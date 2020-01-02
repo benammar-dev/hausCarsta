@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/0d23544b65.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="/css/main.css">
+   <title>Haus Carsta</title>
+</head>
+<body id="kontakt" name="top">
+    
+    <div class="col-xs-12 content">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- hidden mobile menu  -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Haus Carsta</a>
+                    </div>
+                
+                    <!-- main menu  -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Startseite<span class="sr-only">(current)</span></a></li>
+                            <li class="dropdown"> 
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wohnungen <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="wohnung1.html">Wohnung 1 EG RE</a></li>
+                                    <li><a href="wohnung5.html">Wohnung 5 EG LI</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="wohnung2.html">Wohnung 2 OG RE</a></li>
+                                    <li><a href="wohnung3.html">Wohnung 3 OG LI</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="wohnung4.html">Wohnung 4 Anbau</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="belegungskalender.html">Belegungskalender</a></li>
+                            <li><a  href="preise.html">Preise</a></li>
+                            <li class="active"><a href="kontakt.php">Kontakt</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="col-xs-12 body-wrapper">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 hc-mail">
+                    <h2>Kontaktformular</h2>
+                </div>
+               <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 hc-form-content">
+                    <div class="form-user" id="form-user">
+                        <form id="kontaktFormular" class="kontakt-formular" method="post" action="senden.php">
+                            <div class="form-box" id="form-box-name">
+                                <input class="form-control form-control-sm form-control-lg form-control-ms" id="kontakt_name" type="text" placeholder="Name" name="name" required>
+                                <div class="error err-name">Bitte geben Sie Ihren Namen ein.</div>
+                            </div>
+                            <div class="form-box" id="form-box-eMail">
+                                <input class="form-control form-control-sm form-control-lg form-control-ms" id="kontakt_absender" type="text" placeholder="eMail" name="email" required>
+                                <div class="error err-mail">Bitte geben Sie Ihre eMail ein.</div>
+                            </div>
+                            <div class="form-box" id="form-box-betreff">
+                                <input class="form-control form-control-sm form-control-lg form-control-ms" id="kontakt_betreff" type="text" placeholder="Betreff" name="betreff" required>
+                                <div class="error err-betreff">Bitte geben Sie den Betreff ein.</div>
+                            </div>
+                            <div class="form-box" id="form-box-nachricht">
+                                <textarea class="form-control form-control-sm form-control-lg form-control-ms" id="kontakt_nachricht" rows="6" cols="40" name="nachricht" placeholder="Geben Sie Ihre Nachricht ein" required></textarea>
+                                <div class="error err-nachricht">Bitte geben Sie Ihre Nachricht ein.</div>
+                            </div>
+                                <br/>
+                            <div class="form-box" id="form-box-checkbox">
+                                <input type="checkbox" id="check-box"> Stimmen Sie unsere <a href="impressum.html#kontakt">Datenschutzerklärung zum Kontaktformular</a> zu.
+                                <div class="error err-chkbox">Stimmen Sie unseren Datenschutzrichtlinen zu.</div>
+                            </div>
+                            <br/><br/>
+                            <button type="btn-submit" id="btn-senden" class="btn hc-btn-small" value="senden" name="btn-submit">Nachricht Senden</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 footer">
+        <footer>
+            <div class="col-xs-12 col-sm-4 carsta-kontakt">
+            <h4>Haus Carsta</h4>
+            <ul>
+                <li><p>Kleine Straße 4</p></li>
+                <li><p>25997 Hörnum / Sylt</p></li><br />
+                <li><p>Tel: 04651-35846</p></li>
+                <li><p>Handy: 0175-9746915</p></li>
+                <li><p>eMail: hauscarsta@web.de</p></li>
+            </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+
+<!--   jquery    -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="/js/main.js"></script>
+
+<script type="text/javascript">
+
+    const init = function(){
+        document.getElementById('btn-senden').addEventListener('click', send);
+    }
+
+    const send = function(ev){
+        // verhindert das andere Seiten geladen werden.
+        ev.preventDefault();
+        ev.stopPropagation();
+
+        // überprüfen ob Eingaben valide sind.
+        let fehlerMeldung = validate();
+
+        if(fehlerMeldung.length === 0){
+            let sendFormular = document.getElementById('kontaktFormular');
+            sendFormular.submit();
+        } else{
+
+            // sind feher anzuzeigen
+            fehlerMeldung.forEach(function(obj){
+                let eingabe = document.getElementById(obj.input);
+                eingabe.nextElementSibling.setAttribute('class', 'visible');
+                //eingabe.setAttribute('data-errormsg', obj.msg);
+                //console.log(eingabe.nextElementSibling);                
+            })
+            
+        }
+
+    }
+
+    const validate = function(ev){
+        
+        //initialisere Array
+        let fehler = [];
+        
+        // checkbox übergabe
+        let chk = document.getElementById('check-box');
+
+        // checken wenn checked, falls nicht übergabe in Fehler Array
+        if(!chk.checked){
+            valid = false;
+            fehler.push({input: 'check-box'});
+        }
+
+        //Übergabe Formulareingaben 
+        let name = document.getElementById('form-box-name');
+        let absender = document.getElementById('form-box-eMail');
+        let betreff = document.getElementById('form-box-betreff');
+        let nachricht = document.getElementById('form-box-nachricht');
+
+        // checken ob leer, falls ja, übergabe in Fehler Array
+        if(name.querySelector('#kontakt_name').value === ""){
+            fehler.push({input: 'kontakt_name'});
+        }
+
+        if(absender.querySelector('#kontakt_absender').value === ""){
+            fehler.push({input: 'kontakt_absender'});
+        }
+
+        if(betreff.querySelector('#kontakt_betreff').value === ""){
+            fehler.push({input: 'kontakt_betreff'});
+        }
+
+        if(nachricht.querySelector('#kontakt_nachricht').value === ""){
+            fehler.push({input: 'kontakt_nachricht'});
+        }
+        
+
+        return fehler;
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+
+</script>
+
+</html>
+
